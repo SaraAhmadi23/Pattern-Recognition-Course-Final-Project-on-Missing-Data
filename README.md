@@ -6,12 +6,13 @@ This repository focuses on understanding the different methods for dealing with 
 __Approaches to Missing Data__
 
 __1. Imputation-Based Approach__  
-The imputation-based approach involves assigning replacement values to missing, invalid, or inconsistent data. We will examine five imputation methods:
-•	Imputation by a Single Value: Using a default value, mean, or median to replace missing values.
-•	Imputation by the Center of the Group: Replacing missing values with the central value of a predefined group.
-•	Imputation from the K Nearest Neighbors: Using values from the k nearest neighbors to estimate the missing values.
-•	Imputation by a Partial Mean: Replacing missing values with the mean calculated from available partial data.
-•	Imputation by Singular Value Decomposition (SVD): Using SVD to estimate and replace missing values based on underlying patterns in the data.
+The imputation-based approach involves assigning replacement values to missing, invalid, or inconsistent data. We will examine five imputation methods:  
+•	Imputation by a Single Value: Using a default value, mean, or median to replace missing values.  
+•	Imputation by the Center of the Group: Replacing missing values with the central value of a predefined group.  
+•	Imputation from the K Nearest Neighbors: Using values from the k nearest neighbors to estimate the missing values.  
+•	Imputation by a Partial Mean: Replacing missing values with the mean calculated from available partial data.  
+•	Imputation by Singular Value Decomposition (SVD): Using SVD to estimate and replace missing values based on underlying patterns in the data.  
+
 2. EM Algorithm-Based Approach
 The EM algorithm approach completes a series of missing data based on the maximum likelihood estimation of all the data. This approach iterates between estimating the missing data (E-step) and optimizing the parameters (M-step) to converge to the most likely values.
 Project Tasks
