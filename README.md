@@ -5,7 +5,7 @@ This repository focuses on understanding the different methods for dealing with 
 
 __Approaches to Missing Data__
 
-__1. Imputation-Based Approach__ 
+__1. Imputation-Based Approach__  
 The imputation-based approach involves assigning replacement values to missing, invalid, or inconsistent data. We will examine five imputation methods:
 •	Imputation by a Single Value: Using a default value, mean, or median to replace missing values.
 •	Imputation by the Center of the Group: Replacing missing values with the central value of a predefined group.
